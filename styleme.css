@@ -1,0 +1,30 @@
+h1{
+    color: blueviolet;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+h3{
+    color: #91091e;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.books{
+    color: #025955;
+}
+
+.bio{
+    background-color: aqua;
+    color: #374045;
+    border: 10px dotted black;
+    text-align: center;
+    font-family: 'Stick', sans-serif;
+}
+
+#address{
+    text-align: right;
+}
+
+

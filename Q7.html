@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+
+    <style>
+        h1{
+            font-size: 65px;
+            text-align: center;
+            font-family: 'Stick', sans-serif;
+        }
+
+        a{
+            border: black solid 2px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            background-color: black;
+            margin-right: 3px;
+            float: left;
+            margin-bottom: 20px;
+        }
+
+        body{
+            background-color: grey;
+        }
+
+        .container{
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        #score{
+            display: inline-block;
+            font-size: 30px;
+            background-color: green;
+            color: white;
+            border: 2px solid;
+            width: 50px;
+            height: 80px;
+            padding: 20px;
+            margin: 5px;
+            vertical-align: center;
+            text-align: center;
+            line-height: 75px;
+        }
+
+        .fcontainer{
+            display: flex;
+            width: 50%;
+        }
+
+        .bottom{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wall-E</h1>
+        <h3>Walt Disney Motion Pictures | Release Date: Jun 27,2008</h3>
+        <nav>
+            <a>Summary</a>
+            <a>Critic Reviews</a>
+            <a>User Reviews</a>
+            <a>Details and Credits</a>
+            <a>Trailers and Videos</a>
+        </nav>
+
+        <div class="fcontainer">
+            <div id="containeritem1"><img src="images/walle.jpg" height="200px" width="150px"></div>
+            <div id="containeritem2"><p id="score"><label id="try">94</label></p></div>
+            <div id="containeritem3"><h2>Metascore</h2><br><h4>Universal Acclaim based on 39 Critics.</h4></div>
+        </div>
+        <ul class="bottom">
+            <li>Starring: Ben Burtt, Elissa Knight, Jeff Garlin</li>
+            <li>Summary: After hundreds of lonely years of doing what he was built for, WALL-E discovers a new purpose in life when he meets a sleek search robot named EVE.[Walt Disney Pictures]</li>
+        </ul>
+    </div>
+</body>
+</html>
