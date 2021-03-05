@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body bgcolor="#f7d9d9">
+    <div class="top">
+        <h1 style="color: red;">Puppy love ❤</h1>
+    </div>
+    <div style="float: left;">
+        <h2>Video</h2>
+        <video width="370" height="360" autoplay controls>
+            <source src="spider.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div style="float: right;">
+        <h2>Puppy image</h2>
+        <img src="images/puppy.jpg" width="200px" height="200px" id="pup"  style="display: none;">
+        
+        <canvas id="viewport" width="800px" height="480px" style="border: 5px solid;"></canvas>
+    <script>
+        window.onload=function(){
+            var canvas = document.getElementById("viewport");
+            var ctx = canvas.getContext("2d");
+            var img = document.getElementById("pup");
+            ctx.drawImage(img,-250,-50)
+        }
+    </script>
+    </div>
+
+</body>
+</html>
